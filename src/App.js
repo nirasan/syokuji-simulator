@@ -1,17 +1,12 @@
 import React from 'react';
-import {Grid} from '@material-ui/core';
 import './App.css';
-import ProfileForm from "./components/ProfileForm";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Content from "./components/Content";
 
 function App() {
   return (
     <div className="App">
-      <Grid container>
-        <Grid item xs={2} />
-        <Grid item xs={8}>
-          <ProfileForm/>
-        </Grid>
-      </Grid>
+        <Content/>
     </div>
   );
 }
